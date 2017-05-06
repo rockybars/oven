@@ -1,0 +1,15 @@
+{
+  "name": "oven",
+  "version": "1.0.0",
+  "description": "High performance server",
+  "main": "index.js",
+  "author": "Dhi Aurrahman <diorahman@rockybars.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.6.3",
+    "tarik": "^1.0.4"
+  },
+  "scripts": {
+    "test": "node test"
+  }
+}
