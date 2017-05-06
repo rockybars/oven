@@ -24,7 +24,7 @@ test('ok to listen', function (t) {
     })
     .then(function ({statusCode, body}) {
       t.equal(statusCode, 200)
-      t.equal(body, 'OK')
+      t.equal(body, '/')
       close()
       t.end()
     })
