@@ -17,7 +17,7 @@ function close () {
   server.close()
 }
 
-test('ok', function (t) {
+test('ok to listen', function (t) {
   listen()
     .then(function ({port}) {
       return request(`http://localhost:${port}`)
